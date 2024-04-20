@@ -14,7 +14,7 @@ namespace SchoolManagement.Admin
 {
     public partial class AddClass : System.Web.UI.Page
     {
-        //Commonfnx fn = new Commonfnx();
+        Commonfnx fn = new Commonfnx();
 
         SchoolCSDbContext db = new SchoolCSDbContext();  
 
